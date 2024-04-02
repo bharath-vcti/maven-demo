@@ -16,6 +16,6 @@ public class TestApplication {
 
 	@GetMapping("/")
 	public String applicationWorking() {
-		return "Application is up and running??"
+		return "Application is up and running??";
 	}
 }
